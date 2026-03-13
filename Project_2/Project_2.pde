@@ -1,7 +1,7 @@
-
 //Kimlong Chhun
 // Project
 //Block 2-1
+// Fear (Sun Exploding)
 
 int x = 100;
 int y = 500;
@@ -16,7 +16,15 @@ void setup() {
 
 void draw() {
   background(255);
-
+  
+  //Sky
+  fill(0, 225, 252);
+  rect(0, 0, 900, 400); 
+  
+  //Ground
+  fill(20, 118, 19);
+  rect(0, 400, 900, 900);
+ 
   // Lake
   lake(300, 850);
 
